@@ -1,0 +1,55 @@
+.vmeste__header-text{
+	padding-top: 1%;
+
+	text-align: center;
+	font-family: var(--font-family-nunito);
+	font-style: normal;
+	font-weight: 700;
+	font-size: 5vw;
+	line-height: 5vw;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.vmeste__header-text_heplp{
+	color: var(--color-cyan);
+}
+
+.vmeste__header-text_together{
+	color: var(--color-red);
+}
+
+.vmeste__header-picture{
+	flex: 1;
+	display: flex;
+	justify-content: space-between;
+	padding: 1% 20%;
+	padding-bottom: 5%;
+}
+
+.vmeste__header-picture_container{
+	position: relative;
+}
+
+.vmeste__header-picture_container-volunteer{
+	position: relative;
+} 
+
+.vmeste__header-picture_container-company{
+	position: relative;
+} 
+
+.vmeste__header-picture_container-helparrow{
+	position: absolute;
+	max-block-size: 10vw;
+	right: 0;
+	bottom: 0;
+
+}
+
+.vmeste__header-picture_container-organizearrow{
+	position: absolute;
+	max-block-size: 10vw;
+	left: 0;
+	bottom: 0;
+
+}

@@ -1,0 +1,107 @@
+/* Я перепутал право и лево */
+.vmeste__search-wrapper{
+	display: flex;
+	justify-content: center;
+
+	padding-top: 102px;
+	padding-left: 189px;
+	padding-right: 189px;
+	padding-bottom: 81px;
+}
+
+/* Картинка + категории */
+.vmeste__search-wrapper-right{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+/* Поиск + карта */
+.vmeste__search-wrapper-left{
+	margin-left: 1vw;
+
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+/* Категории */
+.vmeste__search-wrapper-right_categories-wrapper{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	width: 20vw;
+	height: 25vw;
+
+	background: #FFFFFF;
+	border: 1px solid #BABABA;
+	border-radius: 20px;
+
+	font-family: var(--font-family-nunito);
+	font-weight: 400;
+}
+
+
+
+/* Поиск */
+.vmeste__search-wrapper-left_search-pane{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	flex-basis: content;
+	
+
+	width: 52vw;
+	max-height: 3.5vw;
+	margin-bottom: 1vw;
+
+	background: #FFFFFF;
+	border: 1px solid #BABABA;
+	border-radius: 20px;
+}
+
+/* Иконка поиска */
+.vmeste__search-wrapper-left_search-pane_searchicon{
+	/* padding-left: 10px; */
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	padding-left:1vw;
+	margin-left:1vw;
+
+	border-left: 1px solid #C2C2C2;
+}
+
+/* Инпут */
+.vmeste__search-wrapper-left_search-pane{
+	border-radius: 20px;
+	width: 100%;
+
+	background: black;
+	font-family: var(--font-family-nunito);
+	font-style: normal;
+	font-weight: 400;
+	border: none;
+}
+
+/* Карта */
+.vmeste__search-wrapper-left_map{
+	display: block;
+	width: 52vw;
+	height: 37vw;
+
+
+	background-color: antiquewhite;
+}
+
+.vmeste__search-wrapper-right_categories-category{
+
+	padding: 2vw 0 0 2vw;
+}
+
+.vmeste__search-wrapper-right_categories-header{
+	padding: 2vw 0 0 2vw;
+}
+
