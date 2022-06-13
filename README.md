@@ -20,6 +20,10 @@
 
 Билд и деплой приложения
 
+пикчуля
+
+# Также в репозитории находятся API для подключения к ML и скрипт базы данных
+
 # Серверная часть деплоится посредством Docker-compose, по Dockerfile. Деплой происходит на Heroku: [тык](https://unionithbrelease.herokuapp.com/)
 
 Скрипт для деплоя:
@@ -29,6 +33,6 @@
 ### `heroku container: login`
 ### `heroku apps:create <app-name>`
 ### `mvnw clean deploy`
-### `heroku container:release web --app=<app-name>`
+### `heroku container:release web worker --app=<app-name>`
 ### `heroku open --app=<app-name>`
 
