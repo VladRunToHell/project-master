@@ -20,7 +20,7 @@
 
 Билд и деплой приложения
 
-![header]((https://github.com/VladRunToHell/union-rel/master/media/header.jpg?raw=true)
+![header](https://github.com/VladRunToHell/union-rel/master/media/header.jpg?raw=true)
 
 # Также в репозитории находятся API для подключения к ML и скрипт базы данных
 
