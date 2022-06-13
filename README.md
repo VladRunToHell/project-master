@@ -20,7 +20,7 @@
 
 Билд и деплой приложения
 
-![header](/media/header.jpg?raw=true)
+![header](/media/header.jpeg?raw=true)
 
 # Также в репозитории находятся API для подключения к ML и скрипт базы данных
 
