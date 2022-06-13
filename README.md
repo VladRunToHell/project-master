@@ -3,7 +3,7 @@
 Веб-сервис, позволяющий волонтерам и организациям, готовящим социально значимые мероприятия, найти друг друга. Модуль геймификации отвечает за рейтинг волонтеров и организаторов, достижения за участие в мероприятиях. Поиск мероприятий и волонтеров при помощи тегов, генерируемых нейросетью, и геоинформационного модуля позволяет найти интересующие события и задачи в удобной для локации. Благодаря личным профилям, волонтеры смогут увидеть отзывы об организации, а организаторы смогут убедиться в добросовестности волонтера.
 
 # Figma: [тык](https://www.figma.com/file/lkrL5PS73n8fcIyWTK71Cc/MoscowCityHack?node-id=0%3A1)
-# Canva: [тык](https://www.canva.com/design/DAEpGzCuBDc/jHcMScwbpQkJtrBFzbpnpA/watch?utm_content=DAEpGzCuBDc&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
+# Canva: (для запуска с VPN) [тык](https://www.canva.com/design/DAEpGzCuBDc/jHcMScwbpQkJtrBFzbpnpA/watch?utm_content=DAEpGzCuBDc&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
 
 # Это приложение можно поднять с помощью React
 
