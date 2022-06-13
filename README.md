@@ -36,3 +36,4 @@
 ### `heroku container:release web worker --app=<app-name>`
 ### `heroku open --app=<app-name>`
 
+Черновой драфт Figma, вставлено только для того, чтобы поднять ваше настроение (работает при сильном приближении): [тык] (https://www.figma.com/file/aLn1YqJMPhaCYjfvBZHtLp/Untitled?node-id=0%3A1)
