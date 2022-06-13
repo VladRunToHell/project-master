@@ -15,7 +15,7 @@ const Header = () => {
     </div>
     <div className='vmeste__header-picture'>
       <div className='vmeste__header-picture_container'>
-        <img src={volunteer} alt='volunteer' className='vmeste__header-picture_container-volunteer' />
+        <a href='#anchor'><img src={volunteer} alt='volunteer' className='vmeste__header-picture_container-volunteer' /></a>
         <img src={helparrow} alt='helparrow' className='vmeste__header-picture_container-helparrow' />
       </div>
       <div className='vmeste__header-picture_container'>

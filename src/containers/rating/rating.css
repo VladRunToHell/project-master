@@ -75,7 +75,7 @@
 .place-p{
 	font-family: var(--font-family-nunito);
 
-	font-size: 2vw;
+	font-size: 1vw;
 	margin-left: 0.8vw;
 	margin-right: 1.5vw;
 }
@@ -86,5 +86,9 @@
 
 .place-place2, .place-place3{
 	margin-right: 0.85vw;
+}
+
+.star{
+	margin-bottom: 0.7vw;
 }
 

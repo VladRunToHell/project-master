@@ -1,4 +1,12 @@
-/* Я перепутал право и лево */
+#anchor {
+	padding-top: 55px;
+	margin-top: -55px;
+	-webkit-background-clip: content-box;
+	background-clip: content-box;
+}
+
+/* Кажется, я был немного не в себе, когда это писал */
+
 .vmeste__search-wrapper{
 	display: flex;
 	justify-content: center;
@@ -19,7 +27,6 @@
 /* Поиск + карта */
 .vmeste__search-wrapper-left{
 	margin-left: 1vw;
-
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -41,8 +48,6 @@
 	font-family: var(--font-family-nunito);
 	font-weight: 400;
 }
-
-
 
 /* Поиск */
 .vmeste__search-wrapper-left_search-pane{
@@ -75,11 +80,9 @@
 }
 
 /* Инпут */
-.vmeste__search-wrapper-left_search-pane{
+.vmeste__search-wrapper-left_search-pane_input{
 	border-radius: 20px;
 	width: 100%;
-
-	background: black;
 	font-family: var(--font-family-nunito);
 	font-style: normal;
 	font-weight: 400;
@@ -88,7 +91,7 @@
 
 /* Карта */
 .vmeste__search-wrapper-left_map{
-	display: block;
+	display: inline;
 	width: 52vw;
 	height: 37vw;
 
@@ -97,11 +100,17 @@
 }
 
 .vmeste__search-wrapper-right_categories-category{
-
+	font-weight: 400;
 	padding: 2vw 0 0 2vw;
 }
 
 .vmeste__search-wrapper-right_categories-header{
+	font-size: large;
+	font-weight: 700;
 	padding: 2vw 0 0 2vw;
+}
+
+.categories-wrapper1{
+	margin-bottom: 1vw;
 }
 

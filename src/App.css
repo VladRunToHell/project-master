@@ -67,13 +67,18 @@ select {
   }
 }
 
-
+input{
+  outline: none;
+  padding-left: 2vw;
+}
 
 a{
   color: unset;
   text-decoration: none;
   cursor: pointer;
 }
+
+
 
 button{
   cursor: pointer;

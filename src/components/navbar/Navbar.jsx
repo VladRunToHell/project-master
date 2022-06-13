@@ -14,7 +14,7 @@ function ToggleButtonExample() {
 
   return (
     <>
-      <ButtonGroup>
+      <ButtonGroup className='form-radio'>
         {radios.map((radio, idx) => (
           <ToggleButton
             key={idx}
@@ -51,7 +51,7 @@ function MyVerticallyCenteredModal(props) {
         <Form.Control placeholder='Ваше имя' className='form-text' />
         <Form.Control placeholder='Ваша фамилия' className='form-text' />
         <Form.Control placeholder='Дата вашего рождения' className='form-text' />
-        <ToggleButtonExample></ToggleButtonExample>
+        <ToggleButtonExample ></ToggleButtonExample>
         <Form.Control placeholder='Логин' className='form-text' />
         <Form.Control placeholder='Пароль' type="password" className='form-text' />
         
@@ -80,17 +80,14 @@ function Register() {
 }
 
 class Navbar extends React.Component{
-
   render(){
     return (
       <div className='vmeste__navbar'>
         <div className='vmeste__navbar-logo'>
-          
-            <img src={logo} alt="logo" className='vmeste__navbar-logo_logo'/>
-          
+          <img src={logo} alt="logo" className='vmeste__navbar-logo_logo'/>   
         </div>
         <div className='vmeste__navbar-login'>
-          <img src={person} alt="person" className='vmeste__navbar-login_person'/>
+          <img src={person} alt="person" className='vmeste__navbar-login_person' />
           <p className='vmeste__navbar-login_p'>Войти</p>
           <Register id ='register'></Register>
         </div>
