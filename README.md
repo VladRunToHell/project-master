@@ -29,6 +29,6 @@
 ### `heroku container: login`
 ### `heroku apps:create <app-name>`
 ### `mvnw clean deploy`
-### `heroku container:release web --app=<app-name>`
+### `heroku container:release web worker --app=<app-name>`
 ### `heroku open --app=<app-name>`
 
